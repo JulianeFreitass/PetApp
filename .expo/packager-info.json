@@ -1,0 +1,8 @@
+{
+  "expoServerNgrokUrl": "https://jc-2rp.anonymous.pet.exp.direct",
+  "packagerNgrokUrl": "https://jc-2rp.anonymous.pet.exp.direct",
+  "ngrokPid": 12252,
+  "expoServerPort": 19000,
+  "devToolsPort": 19002,
+  "packagerPort": 19000
+}
