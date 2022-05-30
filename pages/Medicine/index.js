@@ -21,8 +21,8 @@ useEffect(()=>{
       if( pet.idpet ){
         setLoading(true);
         const response = await medicineList(pet.idpet);
-        if( response.medicines )
-          setList(response.medicines);
+        if( response.medicine )
+          setList(response.medicine);
         setLoading(false);
       }
     }
@@ -111,13 +111,14 @@ useEffect(()=>{
       </View>
       {
         list.length > 0 ?
-        <ScrollView style={[styles.scroll,{flexGrow:1}]}>
+        
           <FlatList
+            style={[styles.scroll]}
+            scrollEnabled={false}
             data={list}
             renderItem={renderItem}
             keyExtractor={item => item.idmedicine}
           />
-        </ScrollView>
         :
         <Empty message="Clique no botão para cadastrar um medicamento" />
       }

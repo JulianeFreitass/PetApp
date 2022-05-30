@@ -131,13 +131,13 @@ export default function Pet(props){
     <View style={styles.container}>
       {
         list.length > 0 ?
-        <ScrollView style={styles.scroll}>
           <FlatList
+            style={styles.scroll}
+            scrollEnabled={true}
             data={list}
             renderItem={renderItem}
             keyExtractor={item => item.idpet}
           />
-        </ScrollView>
         :
         <Empty />
       }

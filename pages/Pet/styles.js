@@ -81,7 +81,6 @@ export default StyleSheet.create({
   title: {
     color: '#444',
     fontWeight: 'bold',
-    fontFamily: 'helvetica',
     fontSize: 17,
     textAlign: 'center'
   },
