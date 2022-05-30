@@ -8,7 +8,7 @@ import {PetContext} from '../../contexts';
 import styles from './styles';
 
 export default function Medicine(props){
-  const [id,setId] = useState('');
+  const [id, setId] = useState('');
   const [register,setRegister] = useState(false);
   const [loading, setLoading] = useState(false);
   const {pet, setPet} = useContext(PetContext);
@@ -21,8 +21,8 @@ useEffect(()=>{
       if( pet.idpet ){
         setLoading(true);
         const response = await medicineList(pet.idpet);
-        if( response.medicine )
-          setList(response.medicine);
+        if( response.medicines )
+          setList(response.medicines);
         setLoading(false);
       }
     }
