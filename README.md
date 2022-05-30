@@ -1,3 +1,6 @@
 # Pet app
 
-Aplicativo para controle de gastos e medicamentos de pets
+
+<h2>🎯Descrição</h2>
+
+Aplicativo para controle de gastos e medicamentos de pets.
