@@ -1,15 +1,14 @@
-import {StyleSheet} from 'react-native';
+import { StyleSheet } from 'react-native';
 
 export default StyleSheet.create({
   container: {
-    flex: 1,
     backgroundColor: '#FFC125'
   },
   box: {
     padding: 10,
-    borderColor:'#555',
+    borderColor: '#555',
     borderWidth: 1,
-    borderRadius: 5,
+    borderRadius: 5
   },
   title: {
     color: '#444',
@@ -33,15 +32,15 @@ export default StyleSheet.create({
     fontSize: 16
   },
   boxButton: {
-    marginTop:20, 
-    flexDirection:'row', 
-    justifyContent:'center'
+    marginTop: 20,
+    flexDirection: 'row',
+    justifyContent: 'center'
   },
   button: {
     width: 100,
     paddingVertical: 5,
     borderColor: '#111',
-    backgroundColor:'#444',
+    backgroundColor: '#444',
     borderRadius: 5,
     marginTop: 10,
     marginHorizontal: 5

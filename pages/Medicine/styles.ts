@@ -1,4 +1,4 @@
-import {StyleSheet} from 'react-native';
+import { StyleSheet } from 'react-native';
 
 export default StyleSheet.create({
   container: {
@@ -7,33 +7,32 @@ export default StyleSheet.create({
     alignItems: 'center',
     backgroundColor: '#FFC125'
   },
-  titlebox:{
-    backgroundColor:'#fefefe',
-    alignSelf:'flex-start',
-    width:'100%'
+  titlebox: {
+    backgroundColor: '#fefefe',
+    alignSelf: 'flex-start',
+    width: '100%'
   },
-  titletext:{
+  titletext: {
     padding: 12,
-    alignSelf:'flex-start',
-    fontWeight:'bold'
+    alignSelf: 'flex-start',
+    fontWeight: 'bold'
   },
-  scroll:{
-    flex:1,
+  scroll: {
     width: '100%'
   },
   item: {
-    flexDirection:'row',
+    flexDirection: 'row',
     justifyContent: 'space-between',
     paddingVertical: 8,
     paddingHorizontal: 10,
     color: '#444',
     borderBottomColor: '#999',
-    borderBottomWidth: 1,
+    borderBottomWidth: 1
   },
   itemtext: {
     alignSelf: 'flex-start',
     flexDirection: 'column',
-    fontSize: 18,
+    fontSize: 18
   },
   itemname: {
     color: '#444',
@@ -49,29 +48,26 @@ export default StyleSheet.create({
     marginRight: 30,
     right: 0,
     bottom: 0,
-    backgroundColor:'tomato'
+    backgroundColor: 'tomato'
   },
-  msg: {flex:1,
-    justifyContent:'center',
-    alignItems:'center'
-  },
+  msg: { flex: 1, justifyContent: 'center', alignItems: 'center' },
   msgtext: {
     fontSize: 18,
-    textAlign:'center',
+    textAlign: 'center',
     marginHorizontal: 40
   },
   registercontainer: {
-    flex:1,
-    justifyContent:'center',
-    alignItems:'center',
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
     backgroundColor: '#FFC125'
   },
   box: {
-    flexDirection:'column',
-    alignContent:'center',
-    justifyContent:'center',
+    flexDirection: 'column',
+    alignContent: 'center',
+    justifyContent: 'center',
     padding: 10,
-    borderColor:'#555',
+    borderColor: '#555',
     borderWidth: 1,
     borderRadius: 5
   },
@@ -97,15 +93,15 @@ export default StyleSheet.create({
     fontSize: 16
   },
   boxButton: {
-    marginTop:20, 
-    flexDirection:'row', 
-    justifyContent:'center'
+    marginTop: 20,
+    flexDirection: 'row',
+    justifyContent: 'center'
   },
   button: {
     width: 100,
     paddingVertical: 5,
     borderColor: '#111',
-    backgroundColor:'#444',
+    backgroundColor: '#444',
     borderRadius: 5,
     marginTop: 10,
     marginHorizontal: 5
@@ -115,4 +111,4 @@ export default StyleSheet.create({
     fontSize: 15,
     textAlign: 'center'
   }
-}); 
+});

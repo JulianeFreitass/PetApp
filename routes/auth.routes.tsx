@@ -1,8 +1,7 @@
-import React from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
+import React from 'react';
+import { Home, Login, Register } from '../pages';
 const { Navigator, Screen } = createStackNavigator();
-
-import {Home, Login, Register} from '../pages';
 
 export default function AuthRoutes() {
   return (

@@ -1,8 +1,7 @@
-import React from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
+import React from 'react';
+import { Dashboard } from '../pages';
 const { Navigator, Screen } = createStackNavigator();
-
-import {Dashboard} from '../pages';
 
 export default function AppRoutes() {
   return (

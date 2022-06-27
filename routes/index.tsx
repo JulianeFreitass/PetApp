@@ -1,9 +1,8 @@
 import React from 'react';
-import { View, ActivityIndicator } from "react-native";
-import AuthRoutes from './auth.routes';
+import { ActivityIndicator, View } from 'react-native';
+import { useAuth } from '../hooks';
 import AppRoutes from './app.routes';
-
-import {useAuth} from '../hooks';
+import AuthRoutes from './auth.routes';
 
 export default function Routes() {
   const { token, loading } = useAuth();
@@ -16,7 +15,14 @@ export default function Routes() {
 }
 
 const Loading = () => (
-  <View style={{flex: 1,justifyContent: 'center',alignItems: 'center',backgroundColor: '#FFC125'}}>
+  <View
+    style={{
+      flex: 1,
+      justifyContent: 'center',
+      alignItems: 'center',
+      backgroundColor: '#FFC125'
+    }}
+  >
     <ActivityIndicator size="large" color="#666" />
   </View>
 );
