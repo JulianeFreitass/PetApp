@@ -3,24 +3,27 @@
 
 <h2>🎯Descrição</h2>
 
-Aplicativo mobile para controle de gastos e medicamentos de pets.
+Aplicativo mobile para ajudar no controle de gastos e medicamentos de pets.
 
 ## 🛠 Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-- **[React Native](https://reactnative.dev/)**
-- **[Expo](https://docs.expo.dev/)**
-- **[javascript](https://www.javascript.com/)**
+- <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> 
+- <img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"> 
+- <img src="https://img.shields.io/badge/Expo-20232A?style=for-the-badge&logo=expo">
+- ![Typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+
+
 
 
 ## ⚙️ Funcionalidades
 
-- [x] Listar, Adicionar e Remover um pet
-- [x] Listar, Adicionar e Remover um pagamento do pet
-- [x] Listar, Adicionar e Remover um medicamento do pet
-- [x] Refatorar o codigo utilizando hooks e contexts
-- [x] Converter projeto de Javascript para Typescript
+- ✅ Listar, Adicionar e Remover um pet
+- ✅ Listar, Adicionar e Remover um pagamento do pet
+- ✅ Listar, Adicionar e Remover um medicamento do pet
+- ✅ Refatorar o codigo utilizando hooks e contexts
+- ✅ Converter projeto de Javascript para Typescript
 
 
 ## :pushpin: Contexts e Hooks
@@ -66,7 +69,3 @@ Responsável por retornar as propriedades do "value" do AuthContext.Provider
 
 - <b>useBackHandler:</b>
 Responsável por detectar o toque do usuário do aplicativo no botão voltar da aplicação
-
-
-
-
