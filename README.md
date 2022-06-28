@@ -1,16 +1,31 @@
-# Pet app
+# Pet App 
 
 
 <h2>🎯Descrição</h2>
 
-Aplicativo para controle de gastos e medicamentos de pets.
+Aplicativo mobile para controle de gastos e medicamentos de pets.
+
+## 🛠 Tecnologias
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+- **[React Native](https://reactnative.dev/)**
+- **[Expo](https://docs.expo.dev/)**
+- **[javascript](https://www.javascript.com/)**
+
+
+## ⚙️ Funcionalidades
+
+- [x] Listar, Adicionar e Remover um pet
+- [x] Listar, Adicionar e Remover um pagamento do pet
+- [x] Listar, Adicionar e Remover um medicamento do pet
+- [x] Refatorar o codigo utilizando hooks e contexts
+- [x] Converter projeto de Javascript para Typescript
 
 
 ## :pushpin: Contexts e Hooks
 
-
 ```              
-
 ├── Contexts:
 │   ├── Auth
 │   ├── Index
@@ -24,40 +39,33 @@ Aplicativo para controle de gastos e medicamentos de pets.
 └── 
 ``` 
 <h2>Contexts</h2>
-<h3> Auth </h3>
 
-- Responsável por conter as propriedades e funções da tela de Login, tela de Criação do Uusário e a função de LogOut do aplicativo
+- <b>Auth:</b>
+Responsável por conter as propriedades e funções da tela de Login, tela de Criação do Uusário e a função de LogOut do aplicativo
 
-<h3> Index </h3>
+- <b>Index:</b>
+Responsável por hospedar e exportar os outros arquivos da pasta Contexts
 
-- Responsável por hospedar e exportar os outros arquivos da pasta Contexts
+- <b>Medicine:</b>
+Contém os códigos funcionais das funções da página de listagem de medicamentos
 
-<h3> Medicine </h3>
+- <b>Payments:</b>
+Contém os códigos funcionais das funções da página de listagem de pagamentos
 
-- Contém os códigos funcionais das funções da página de listagem de medicamentos
-
-<h3> Payments </h3>
-
-- Contém os códigos funcionais das funções da página de listagem de pagamentos
-
-<h3> Pet </h3>
-
-- Contém os códigos funcionais das funções da página de listagem de pets
+- <b>Pet:</b>
+Contém os códigos funcionais das funções da página de listagem de pets
 
 
 <h2>Hooks</h2>
 
-<h3> Index </h3>
+- <b>Index:</b>
+Responsável por hospedar e exportar os outros arquivos da pasta Hooks
 
-- Responsável por hospedar e exportar os outros arquivos da pasta Hooks
+- <b>useAuth:</b>
+Responsável por retornar as propriedades do "value" do AuthContext.Provider
 
-<h3> useAuth </h3>
-
-- Responsável por retornar as propriedades do "value" do AuthContext.Provider
-
-<h3> useBackHandler </h3>
-
-- Responsável por detectar o toque do usuário do aplicativo no botão voltar da aplicação
+- <b>useBackHandler:</b>
+Responsável por detectar o toque do usuário do aplicativo no botão voltar da aplicação
 
 
 
